@@ -1,203 +1,185 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap');
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
-    font-size: 16px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-span {
-    color: #242424;
-    text-align: center;
-    line-height: 1.25;
-}
-
-h1 {
-    font-size: 36px;
-    margin-bottom: 12px;
-}
-
-p {
-    line-height: 1.5;
-    font-size: 16px;
-}
-
-header {
-    height: 100vh;
-    box-sizing: border-box;
-}
-
-li {
-    list-style: none;
-    padding: 0 12px;
-}
-
-a {
-    text-decoration: none;
-}
-
-
-/* Navigation */
-
-nav {
-    height: 100px;
-    width: 100%;
-    max-width: 1000px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-}
-
-.nav-links {
-    display: flex;
-}
-
-.nav-anchor {
-    font-weight: 700;
-    color: black;
-}
-
-.primary-anchor {
-    color: white;
-    background-color: #d4a373;
-    padding: 8px 16px;
-    border-radius: 50px;
-    transition: all 300ms ease;
-    margin-right: 12px;
-}
-
-.primary-anchor:hover {
-    background-color: #ddbea9;
-}
-
-.name-logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #d4a373;
-    margin: 24px;
-}
-
-
-/* End of Navigation */
-
-
-/* About Me */
-
-#about-me {
-    height: 100%;
-    text-align: center;
-}
-
-.para-name {
-    font-size: 36px;
-    color: #d4a373;
-}
-
-.about-me-img-container {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    overflow: hidden;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.16);
-    margin-bottom: 28px;
-}
-
-.pfp {
-    width: 100%;
-    transform: scale(1.5);
-    padding-top: 8px;
-}
-
-.about-me-row {
-    max-width: 500px;
-    height: 500px;
-    margin: 0 auto;
-}
-
-.h1-highlight {
-    color: #d4a373;
-    font-size: 36px;
-}
-
-.para-highlight {
-    color: #d4a373;
-    font-size: 16px;
-}
-
-.about-me-links {
-    margin: 12px;
-    display: flex;
-    justify-content: center;
-}
-
-
-/* need fixing */
-
-.about-me-link {
-    font-size: 20px;
-    color: #242424;
-    padding: 0 16px;
-}
-
-.about-me-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.undraw-design {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
-
-.undraw-image {
-    height: 563px;
-}
-
-
-/* End of About Me */
-
-
-/* Start Of Languages */
-
-#languages {
-    border: 4px solid blue;
-    height: 1000px;
-}
-
-.row {
-    border: 4px solid yellow;
-    max-width: 500px;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
-}
-
-.container {
-    border: 10px solid orange;
-    height: 600px;
-}
-
-figure {
-    border: 5px solid magenta;
-}
-
-img {
-    border: 5px solid aquamarine;
-}
-
-#language-heading {
-    text-align: center;
-}
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap');
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Lato', sans-serif;
+        font-size: 16px;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    span {
+        color: #242424;
+        text-align: center;
+        line-height: 1.25;
+    }
+    
+    h1 {
+        font-size: 36px;
+        margin-bottom: 12px;
+    }
+    
+    p {
+        line-height: 1.5;
+        font-size: 16px;
+    }
+    
+    header {
+        height: 100vh;
+        box-sizing: border-box;
+    }
+    
+    li {
+        list-style: none;
+        padding: 0 12px;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    /* Navigation */
+    
+    nav {
+        height: 100px;
+        width: 100%;
+        max-width: 1000px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+    }
+    
+    .nav-links {
+        display: flex;
+    }
+    
+    .nav-anchor {
+        font-weight: 700;
+        color: black;
+    }
+    
+    .primary-anchor {
+        color: white;
+        background-color: #d4a373;
+        padding: 8px 16px;
+        border-radius: 50px;
+        transition: all 300ms ease;
+        margin-right: 12px;
+    }
+    
+    .primary-anchor:hover {
+        background-color: #ddbea9;
+    }
+    
+    .name-logo {
+        font-size: 24px;
+        font-weight: bold;
+        color: #d4a373;
+        margin: 24px;
+    }
+    /* End of Navigation */
+    /* About Me */
+    
+    #about-me {
+        height: 100%;
+        text-align: center;
+    }
+    
+    .para-name {
+        font-size: 36px;
+        color: #d4a373;
+    }
+    
+    .about-me-img-container {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        overflow: hidden;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.16);
+        margin-bottom: 28px;
+    }
+    
+    .pfp {
+        width: 100%;
+        transform: scale(1.5);
+        padding-top: 8px;
+    }
+    
+    .about-me-row {
+        max-width: 500px;
+        height: 500px;
+        margin: 0 auto;
+    }
+    
+    .h1-highlight {
+        color: #d4a373;
+        font-size: 36px;
+    }
+    
+    .para-highlight {
+        color: #d4a373;
+        font-size: 16px;
+    }
+    
+    .about-me-links {
+        margin: 12px;
+        display: flex;
+        justify-content: center;
+    }
+    /* need fixing */
+    
+    .about-me-link {
+        font-size: 20px;
+        color: #242424;
+        padding: 0 16px;
+    }
+    
+    .about-me-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .undraw-design {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .undraw-image {
+        height: 563px;
+    }
+    /* End of About Me */
+    /* Start Of Languages */
+    
+    .language-icons {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .icon {
+        width: 100%;
+        max-width: 100px;
+        margin: 25px 16px;
+        transition: all 300ms ease;
+    }
+    
+    .icon:hover {
+        opacity: 0.86;
+        filter: brightness(80%);
+        transform: scale(0.9);
+    }
+    
+    #languages {
+        padding: 80px;
+        background-color: #f8f8f8;
+    }
+    /* End of Languages */
+    /* Start of Projects */
